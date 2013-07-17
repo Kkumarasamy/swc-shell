@@ -1,0 +1,59 @@
+    1  pwd
+    2  ls
+    3  ls -F
+    4  swc
+    5  /swc$
+    6  /swc
+    7  pwd
+    8  mkdir test
+    9  notepad.txt
+   10  ls data.txt
+   11  swc
+   12  mkdir swc
+   13  cd swc
+   14  ls
+   15  notepad.exe
+   16  cp data.txt data_copy.txt
+   17  mkdir temp
+   18  mv data_copy.txt/temp
+   19  mv data_copy.txt temp/
+   20  temp ls
+   21  cd temp
+   22  ls
+   23  cd swc
+   24  cd.
+   25  cd..
+   26  .
+   27  ..
+   28  cd..
+   29  cd ..
+   30  mkdir backup
+   31  cd backup
+   32  cd ..
+   33  cp data.txt backup/
+   34  cp data.txt LoganRdData.txt
+   35  cd ..
+   36  cd swc
+   37  cp LoganRData.txt backup
+   38  cp LoganRData.txt backup
+   39  clear
+   40  cat data_littlebearriver_2013.txt
+   41  sort data_littlebearriver_2013.txt
+   42  sort --help
+   43  sort -k 3 -n data_littlebearriver_2013.txt
+   44  sort -k 3 -n data_littlebearriver_2013.txt>sorted_rates.txt
+   45  tail -1 sorted_rates.txt
+   46* sort -k 2 
+   47  head -2 sorted_rates.txt
+   48  head -1 sorted_rates.txt
+   49  tail -9 sorted_rates.txt
+   50  tail -10 sorted_rates.txt
+   51  head -1 sorted_rates.txt
+   52* sort -k 3 -n data_littlebearriver_2013.txt1
+   53  ls
+   54  python avg_discharge_rate.py data_littlebearriver_2013.txt
+   55  sort -k 3 -n data_littlebearriver_2013.txt>sorted_rates.txt | sort -k 2 -| tail -1
+   56  python avg_discharge_rate.py data_littlebearriver_2013.txt | sort -k 2 -n | tail -1
+   57  history
+   58  myanalysis_2013_07_17.txt
+   59  history>myanalysis_2013_07_17.txt
